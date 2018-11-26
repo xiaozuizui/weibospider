@@ -68,11 +68,11 @@ namespace littleBase
 
         private CookieCollection GenerateCookie()
         {
-            CookieCollection collection;
+            CookieCollection collection = new CookieCollection();
 
             Cookie c1 = new Cookie("_s_tentry","passport.weibo.com"); 
             Cookie c2 = new Cookie();
-                
+            return collection;
 
         }
 
